@@ -2,10 +2,64 @@
 #include <vector>
 
 std::vector<std::string> guesses(unsigned known) {
-  std::vector<std::string> response {
-   "000000",
-   "badbad",
-  };
-  
-  return response;
+    std::vector<std::string> response {
+        "abc123", "pass12", "654321", "qwerty", "asdfgh", "zxcvbn", "123abc", "987654",
+        "letmein", "monkey", "trust1", "dragon", "killer", "super1", "master", "shadow",
+        "123qwe", "qazwsx", "cool12", "welcome", "secret", "tigger", "charly", "ilovey",
+        "freedom", "killer", "flower", "sunset", "pepper", "soccer", "blink1", "silver",
+        "baseba", "football", "jordan", "cookie", "purple", "mickey", "peanut", "summer",
+        "snoopy", "butter", "turtle", "love12", "ginger", "friday", "ranger", "mustang",
+        "thomas", "boston", "yellow", "shadow", "orange", "london", "martin", "joseph",
+        "dakota", "thunde", "boomer", "camaro", "bigdog", "smokey", "morgan", "sparky",
+        "bailey", "booboo", "bigred", "sydney", "maggie", "jessie", "johnny", "oliver",
+        "taylor", "phoebe", "dakota", "cassie", "scarle", "wilson", "gemini", "miller",
+        "bamboo", "aurora", "buster", "hamlet", "bishop", "gracie", "hunter", "alexis",
+        "jordan", "simone", "philly", "beavis", "alfred", "malibu", "eminem", "ashley",
+        "heaven", "cherry", "robert", "denise", "carlos", "hannah", "madmax", "raptor",
+        "garcia", "hunter", "george", "simson", "anakin", "morris", "walter", "breeze",
+        "parker", "grease", "pigeon", "pastor", "longer", "salami", "linden", "fields",
+        "silver", "hotdog", "debbie", "robbie", "alaska", "hawaii", "boston", "carmen",
+        "edward", "french", "canada", "naples", "marcus", "cactus", "banana", "skippy",
+        "apollo", "shelby", "barker", "hannah", "redrum", "money1", "disney", "brutus",
+        "gerard", "beagle", "darwin", "maxime", "isabel", "lester", "barney", "carmen",
+        "juliet", "pierre", "foster", "apollo", "saturn", "bigboy", "topgun", "marvin",
+        "donald", "nelson", "maxine", "jordan", "jasmin", "redfox", "jaguar", "panzer",
+        "katana", "454545", "trevor", "popeye", "buddy1", "lickme", "whynot", "apache",
+        "bigmac", "morris", "simone", "norton", "harvey", "246810", "theone", "lennon",
+        "julian", "chris1", "xfiles", "elaine", "dustin", "ladies", "herman", "hottie",
+        "314159", "barbie", "baller", "gogogo", "peewee", "sweety", "stefan", "stacey",
+        "jasmin", "james1", "ficken", "sunday", "manson", "181818", "maddie", "mylove",
+        "mememe", "ibanez", "minnie", "rocky1", "shelly", "hotsex", "goldie", "benson",
+        "ronnie", "milton", "phoebe", "aurora", "dudley", "brandi", "joejoe", "mariah",
+        "monika", "justme", "gloria", "audrey", "anakin", "watson", "italia", "callie",
+        "bobbob", "kelsey", "german", "nadine", "sammie", "kaiser", "marion", "wesley",
+        "fatcat", "david1", "trojan", "trixie", "kkkkkk", "sophia", "sidney", "pussys",
+        "martha", "harold", "tintin", "tarzan", "sammy1", "marcel", "manuel", "jjjjjj",
+        "424242", "yvonne", "sex4me", "wwwwww", "michel", "rommel", "holden", "harris",
+        "angelo", "jesus1", "archie", "panama", "bianca", "assass", "yomama", "rocker",
+        "dddddd", "joanna", "geheim", "spyder", "shalom", "passat", "moomoo", "blue22",
+        "apple1", "niners", "deedee", "bertha", "mulder", "gggggg", "yoyoyo", "newman",
+        "patton", "darren", "silvia", "milton", "loulou", "fossil", "sylvia", "shasta",
+        "palmer", "molly1", "holmes", "drizzt", "philly", "africa", "serena", "gerald",
+        "rodney", "dillon", "coolio", "sheila", "damien", "boeing", "trains", "maxine",
+        "isabel", "oldman", "graham", "colt45", "murray", "seven7", "obiwan", "mollie",
+        "licker", "kansas", "markus", "darwin", "showme", "magic1", "python", "stimpy",
+        "poopie", "helena", "anubis", "pepsi1", "jason1", "tracey", "cccccc", "bigguy",
+        "miguel", "latino", "green1", "byteme", "osiris", "nymets", "nookie", "lester",
+        "ledzep", "weezer", "ffffff", "dookie", "monroe", "dublin", "brasil", "tazman",
+        "stuart", "phoebe", "woody1", "redred", "racerx", "nimrod", "tttttt", "richie",
+        "qwertz", "luther", "bollox", "pooper", "carson", "black1", "wookie", "molson",
+        "shazam", "janice", "gerard", "celica", "topper", "stevie", "dogdog", "rebels",
+        "llllll", "elwood", "tardis", "tacoma", "hoover", "viper1", "sabine", "melvin",
+        "honda1", "xanadu", "oooooo", "hotboy", "chucky", "bobbie", "smokin", "claude",
+        "willis", "spidey", "payton", "trebor", "letsgo", "jimbob", "janine", "fatass",
+        "slappy", "mypass", "laurie", "aussie", "ohyeah", "donnie", "deanna", "astros",
+        "hudson", "rusty1", "punkin", "magnus", "hhhhhh", "primus", "esther", "fatman",
+        "sarah1", "judith", "flyboy", "power1", "ludwig", "jammer", "frank1", "hermes",
+        "camels", "vulcan", "kelley", "delta1", "loveit", "looker", "billie", "ccbill",
+        "budman", "doobie", "horny1", "rhonda", "lickit", "g0at3d", "hi$70!", "pass1!"
+
+    };
+
+    return response;
 }
