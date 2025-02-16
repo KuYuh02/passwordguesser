@@ -58,7 +58,7 @@ std::vector<std::string> guesses(unsigned known) {
         "sarah1", "judith", "flyboy", "power1", "ludwig", "jammer", "frank1", "hermes",
         "camels", "vulcan", "kelley", "delta1", "loveit", "looker", "billie", "ccbill",
         "budman", "doobie", "horny1", "rhonda", "lickit", "g0at3d", "hi$70!", "pass1!",
-        "Alx01@"
+        "Alx01@", "psswrd", "!@#!@#", "Enzo1!"
 
     };
 
